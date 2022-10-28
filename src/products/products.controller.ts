@@ -1,4 +1,11 @@
-import {Controller} from '@nestjs/common'
+import {Controller, Post} from '@nestjs/common'
 
 @Controller('products')
-export class ProductsController {} 
+export class ProductsController {
+
+    @Post()
+    addProducts() : any {
+
+    }
+
+} 
